@@ -1,0 +1,235 @@
+/* CSS reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* styling */
+body {
+    font-size: 14px;
+    font-family: "Inter", serif !important;
+    background-color: #ffffff;
+    color: #343434;
+    font-size: 16px;
+}
+
+nav {
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, .2);
+}
+
+.header {
+    margin-top: -25%;
+}
+
+.header-text {
+    width: 70%;
+    margin: -10% auto auto auto;
+    position: relative;
+    padding-bottom: 12vh;
+}
+
+.h-center {
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    color: #343434;
+}
+
+.hours {
+    padding-top: 0rem;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-gap: 3px 20px;
+
+}
+
+footer .btn {
+    width: 3.5rem;
+    height: auto;
+}
+
+.navbar-brand span {
+    margin-left: 2.5vw;
+}
+
+.header-text p {
+    width: 90%;
+    margin: auto;
+    padding-top: 2.5rem;
+}
+
+.body-content {
+    margin: auto;
+}
+
+.body-buttons {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 12vh;
+}
+
+.body-content {
+    margin: auto;
+}
+
+.body-info {
+    width: 100%;
+    background-color: #FFF8E0;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 8% 15%;
+    margin-bottom: 12vh;
+}
+
+.info-image {
+    margin: auto;
+    padding: 2rem;
+    flex-grow: .4;
+}
+
+.info-text {
+    margin: auto;
+    padding: 2rem;
+}
+
+.info-text img {
+    width: 1.5rem;
+    display: inline;
+    padding-right: 0.5rem;
+}
+
+
+.body-menu {
+    width: 90%;
+    margin: auto;
+}
+
+.menu-flex {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 10vh auto 0 auto;
+    justify-content: space-around;
+}
+
+.menu-img-items {
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.img-description {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.menu-text {
+    width: 70%;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+}
+
+.menu-text h5 {
+    padding-bottom: 0.3rem;
+}
+
+.red-color {
+    color: #EE1F25;
+}
+
+.menu-description {
+    padding-right: 1rem;
+}
+
+.display-navbar-text {
+    font-size: calc(1.5rem + .4vw);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+}
+
+.store-hours {
+    margin: auto;
+    padding-top: 3rem;
+    display: inline;
+}
+
+h2 {
+    color: #EE1F25;
+}
+
+.body-buttons p {
+    padding: 1rem 0 0 0 !important;
+}
+
+.navbar-brand span {
+    margin-top: 10rem !important;
+}
+
+.my-button-class {
+    font-weight: 600 !important;
+    margin: auto;
+}
+
+.dropdown {
+text-align: center;
+}
+
+footer {
+    box-shadow: 0 -3px 10px 1px rgba(0, 0, 0, .1);
+}
+
+.nav-item-button {
+padding-left: 1rem;
+}
+
+@media (max-width: 900px) {
+    .menu-text {
+        width: 100%;
+    }
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 550px) {
+    .display-navbar-text {
+        display: none;
+    }
+}
+
+    @media (max-width: 1100px) {
+        .nav-item-button {
+            padding-left: 0;
+            padding-bottom: 1rem;
+            padding-top: 0.5rem;
+            }
+
+}
